@@ -7,6 +7,8 @@ This was inspired by and uses the same block lists as Pi-Hole, I'd highly recomm
 https://pi-hole.net/  
 https://github.com/pi-hole/pi-hole/#one-step-automated-install
 
+The script could be a lot cleaner and more efficiently written, but I wanted to create something useful that even people with little to no scripting experience could read and understand easily and use as a starting point to creating scripts themselves. 
+
 To run:
 ===
 
