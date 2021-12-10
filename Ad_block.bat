@@ -20,7 +20,7 @@ powershell -Command "Get-Content %desktop%1.txt, %desktop%2.txt, %desktop%3.txt 
 
 REM Creating a new basic hosts file
 
-ECHO Adding Windows Required Hosts
+ECHO Adding Basic Hosts
 ECHO 127.0.0.1 localhost > %desktop%hosts.txt
 ECHO 127.0.0.1 localhost.localdomain >> %desktop%hosts.txt
 ECHO 127.0.0.1 local >> %desktop%hosts.txt
