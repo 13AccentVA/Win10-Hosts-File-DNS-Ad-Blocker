@@ -40,7 +40,7 @@ powershell -Command "wget https://s3.amazonaws.com/lists.disconnect.me/simple_ad
 
 **Step 2:**
 
-- Change the Ad-List #, URL (has to be a txt file), and "%desktop%#.txt" so it doesn't match other lines.  
+- Change the Ad-List #, URL, and "%desktop%#.txt" so it doesn't match other lines.  
 - So the next on should look like this:
 ```
 ECHO Downloading Ad-List 5
