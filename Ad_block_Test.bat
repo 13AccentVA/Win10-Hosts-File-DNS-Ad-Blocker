@@ -11,14 +11,12 @@ powershell -Command "wget https://raw.githubusercontent.com/StevenBlack/hosts/ma
 ECHO Downloading Ad-List 2
 powershell -Command "wget https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt -outfile %desktop%2.txt"
 ECHO Downloading Ad-List 3
-powershell -Command "wget https://mirror1.malwaredomains.com/files/justdomains -outfile %desktop%3.txt"
-ECHO Downloading Ad-List 4
-powershell -Command "wget https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt -outfile %desktop%4.txt"
+powershell -Command "wget https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt -outfile %desktop%3.txt"
 
 REM Consolidate All 4 Adlists
 
 ECHO Combining Ad-Lists
-powershell -Command "Get-Content %desktop%1.txt, %desktop%2.txt, %desktop%3.txt, %desktop%4.txt | Set-Content %desktop%AdList.txt"
+powershell -Command "Get-Content %desktop%1.txt, %desktop%2.txt, %desktop%3.txt | Set-Content %desktop%AdList.txt"
 
 REM Creating a new basic hosts file
 
@@ -67,7 +65,6 @@ ECHO Deleting temp files
 DEL %desktop%1.txt
 DEL %desktop%2.txt
 DEL %desktop%3.txt
-DEL %desktop%4.txt
 DEL %desktop%hosts.txt
 DEL %desktop%AdList.txt
 DEL %desktop%hosts
