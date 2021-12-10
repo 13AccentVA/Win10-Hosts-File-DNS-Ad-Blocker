@@ -25,7 +25,8 @@ I suggest moving it or renaming it after the first run or you will lose the stoc
 If lost or overwritten instructions to restore your origional hosts file can also be found here:  
 https://support.microsoft.com/en-us/topic/how-to-reset-the-hosts-file-back-to-the-default-c2a43f9d-e176-c6f3-e4ef-3500277a6dae
 
-*Ad-list 3 will currently throw errors because it doesn't exist, eventually I'll verify if it's permanantly gone and will remove it if so.*  
+~~*Ad-list 3 will currently throw errors because it doesn't exist, eventually I'll verify if it's permanantly gone and will remove it if so.*~~  
+Changed my mind and just removed the origional Ad-list 3, the old Ad-list 4 is now Ad-list 3
 
 To add adlists:
 ===
