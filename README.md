@@ -10,7 +10,7 @@ https://github.com/pi-hole/pi-hole/#one-step-automated-install
 To run:
 ===
 
-1. Right click and run "Ad_block.bat" as admin - 
+1. Right click and run "Ad_block.bat" as admin  
 2. Wait until you see "Press any key to continue . . ."
 3. Press any key (Spacebar or Enter will work if you don't have an any key)
 4. Optional: You can check the hosts file at "C:\Windows\System32\drivers\etc\hosts" you should see a LOT of 0.0.0.0 (ad domain) entries
